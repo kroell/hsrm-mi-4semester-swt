@@ -1,0 +1,147 @@
+1:1 Vorstellungsgespraech
+1:1:1 Hallo. §1: Quest starten §2: Bloedes Wetter heute, ich muss gehen!
+1:1:11 Geek hat ein Vorstellungsgespraech. Als er am Dienstagmorgen nach einer durchzechten Nacht aufwacht, sieht er, §dass die Cola neben dem Bett umgefallen und ueber den Rechner geflossen ist. Somit kann er leider nicht auf seine §Termine zugreifen. Er kann sich allerdings erinnern, dass sein Termin zwei Tage nach dem Tag vor §dem Tag nach morgen ist. §1: Freitag  2:Donnerstag  3: Raus hier
+1:1:12 Tschuess. #END%0
+1:1:111 Die Antwort ist richtig. #END%15
+1:1:112 Das war die falsche Antwort. versuch es nochmal. #END%-10
+1:1:113 Ach,schon so spaet? Der Kreis ist rund. Tschuess!#END%0
+-
+2:1 Tastatur
+2:1:1 iGude! §1: iGude wie!?
+2:1:11 Sag mal ... Wie viele Tasten hat eine Standard-Tastatur mit Windows-Tasten? §1: 99 §2: 105 §3: 111
+2:1:111 Tja, da wuerd ich mal sagen, das war ... falsch! #END%-10
+2:1:112 Sauber, das war richtig! #END%10
+2:1:113 Looser! #END%-10
+-
+3:1 Kaffeemaschine
+3:1:1 Du hast den Studi-Raum gefunden. §1: Weiter
+3:1:11 Wir machen's kurz! Finde die Kaffeemaschine und bring sie in den Studi-Raum! #ITEM%Kaffeemaschine
+3:1:111 Du hast die Kaffemaschine gefunden. Bringe sie zum Studi-Raum. #AREA%-4/0/10
+3:1:1111 Super gemacht! #END%15
+-
+4:1 Java-Hunt
+4:1:1 Hallo Neuankoemmling. §1: Weiter.
+4:1:11 Du hast 3 Minuten Zeit um 5 Java's abzuschiessen. LOS GEHTS! #SHOOT%180/5
+4:1:111 BOOM! #END%20
+4:1:112 Satz mit x, war wohl nix! #END%-10
+-
+5:2 Code-Master
+5:2:1 Goedendag! §1: Hoe gaat het? §2: Immer diese auslaendischen Schweinereien, die ich nicht verstehe! Auf wiedersehen!
+5:2:11 Goed hoor! A propos: Was berechnet folgende Funktion: def erg(x) {if x == 1{ return 1} else{ return erg(x-1)*x}}? §1: Groesster Gemeinsamer Teiler §2: N-Fakultaet  §3: Fibonacci
+5:2:12 Tschuess. #END%0
+5:2:111 Oh mein Gott, dass ist nicht wirkliche deine Antwort oder? #END%-10
+5:2:112 Juist! #END%30
+5:2:113 Vals! Gaat goed! #END%-10
+-
+6:2 OS-File
+6:2:1 Welche der folgenden Dateien ist keine Programmdatei? §1: Start.exe § 2: Start.com §3: Start.doc
+6:2:11 Nicht dein ernst oder? #END%-10
+6:2:12 Muhahahahaa, der war gut! #END%-10
+6:2:13 Du hast eine Waschmaschine gewonnen! Leider passt sie nicht in deinen Rucksack! Aber trotzdem, GLUECKWUNSCH! #END%10
+-
+7:2 Wuerfel-Raetsel
+7:2:1 Fuenf normale Wuerfel sind willkuerlich uebereinander gestapelt. Die Augenzahl der obersten Seite des §oben liegenden Wuerfels betraegt 2. Wie viele Augen sind insgesamt sichtbar? §1:  Das ist mir zu kompliziert?  2: Puh, gibts einen Tipp?
+7:2:11 Tschuess. #END%0
+7:2:12 Also es ist keine Sexstellung! § 1: OK, dann ist es 69  § 2: 42 ist die Antwort.  § 3: Es muss 72 sein.
+7:2:121 Ich hab doch gesagt KEINE Sexstellung! #END%-10
+7:2:122 Das ist zwar die Antwort auf alles, jedoch nicht auf diese Frage! #END%-10
+7:2:123 Du bist so kluk! #END%20
+-
+8:2 Java-Hunt
+8:2:1 Hallo §1: Weiter.
+8:2:11 Du hast 1.5 Minuten Zeit um 5 Javas abzuschiessen! Los!! #SHOOT%180/5
+8:2:111 Ich nenn dich ab sofort Rambo! #END%20
+8:2:112 Vielleicht beim naechsten Mal #END%-10
+-
+9:3 Guilty Duck
+9:3:1 Gruess Gott! §1: Wenn ich ihn sehe!  §2: Mir ist kalt! Good Bye!
+9:3:11 Donald war erbost 'Wer von euch hat von der Torte genascht?' Seine Neffen blickten betreten auf das Backwerk, dessen §kunstvolle Dekoration von kleinen Entenfingern uebel zugerichtet war. Einerseits wollten sie nicht petzen oder sich selbst beschul- §digen, andererseits wollten sie ihren Onkel auch nicht beluegen. Nach einigen Anlaeufen quaelte Tick aus sich heraus: 'Trick oder §ich waren es.' Dann druckste Trick: 'Entweder war es Track oder ich.' Track gab an: 'Entweder hat Tick oder ich nicht genascht.' §Zum Erstaunen der drei wusste Donald sofort, wer genascht hatte. Also, wer war es? 1: Trick & Tick  2: Trick & Track  3: Tick & Track
+9:3:12 Tschuess #END%0
+9:3:111 Auch ein blindes Huhn findet mal ein Korn. Glueckwunsch! #END%30
+9:3:112 Knapp vorbei ist auch daneben! #END%-10
+9:3:113 Da wuerd ich nochmal drueber nachdenken! #END%-10
+-
+10:3 Datentypen-Fun
+10:3:1 Ordne folgenden Datentypen die richtigen Bitwerte zu: Boolean, Char, Byte, Short, Integer, Long, Float, Double §1:  1, 16, 8, 8, 32, 64, 32, 64 §2:  1, 16, 8, 16, 32,  64, 32, 32 §3: 1, 16, 8, 16, 32, 64, 32, 64
+10:3:11 Nope! #END%-10
+10:3:12 Was kannst du eigentlich? #END%-10
+10:3:13 Du hast also im ersten Semester aufgepasst! #END%20
+-
+11:3 Rot 13
+11:3:1 Lust auf ein kleines Raetsel? §1: Wenn ich so kurz drueber nachdenke ... nein !!! §2: Immer gerne!
+11:3:11 Tschuess.#END%0
+11:3:12 Decodiere folgende Worte: Oynpxwnpx haq Ahggra §1: Javascript und Server §2: Blackjack und Nutten §3: Roulette und Pokern
+11:3:121 Glaubst du echt es ist so einfach? #END%-10
+11:3:122 YEAH BABY! #END%20
+11:3:123 Da haet ich jetzt auch Bock drauf, aber das ist nicht die gesuchte Antwort! #END%-10
+-
+12:3 Java-Hunt
+12:3:1 Hallo §1: Weiter.
+12:3:11 Du hast 1 Minuten Zeit um 5 Javas abzuschiessen! Los!! #SHOOT%60/5
+12:3:111 Rambo ist mittlerweile ein Scheiss gegen dich! #END%20
+12:3:112 Du bist eine Schande fuer diesen Studiengang! #END%-10
+-
+13:4 Mathe-Ass
+13:4:1 Hallo mein Freund der mathematischen Kunst! §1: Ich? Bestimmt nicht. Division durch Null!!! WUUUUSSSSCCCCHHHHHHHH §2: D'accord!
+13:4:11 Tschuess #END%0
+13:4:12 Ok, folgende Frage: Die Summe zweier Zahlen soll doppelt so gross sein wie ihre (positive) Differenz. Ihr Produkt aber soll §dreimal so gross wie ihre Summe sein. Um welche beiden Zahlen handelt es sich? §1:  2 & 10         2:  3 & 11    3:  4 & 12
+13:4:121 Rien ne vas plus! #END%-10
+13:4:122 Gehe ins Gefaengnis, begib dich sofort dort hin, gehe nicht ueber Los. Na gut 10 CP Abzug sollten reichen! #END%-10
+13:4:123 Seh ich auch so! D'accord! #END%20
+-
+14:4 Speicher-Meister
+14:4:1 Ich hab eine Nerd Frage fuer dich! Wie viel Speicher ist auf einer 5,25 Zoll Diskette vorhanden? §1:  80 bis 1200 KB  §2:  180 KB  §3:  720 bis 3520 KB
+14:4:11 Gehoert der DeLorean da dir? Nicht schlecht! #END%20
+14:4:12 Mach dir keinen Stress, ich haet das auch nicht gewusst! #END%-10
+14:4:13 Nicht schlimm, passiert den Besten! #END%-10
+-
+15:4 Dark-Side
+15:4:1 Man sieht die Hand vor Augen nicht. Auf den Hausmeister ist auch kein Verlass mehr. §1: Weiter.
+15:4:11  Los, finde eine Gluehbirne und komm wieder! #ITEM%Gluehbirne
+15:4:111 Hey, die kann ich doch gebrauchen.  #AREA%20/0/-3
+15:4:1111 Dich kann man gebrauchen! #END%20
+-
+16:4 Java-Hunt
+16:4:1 Hallo. §1: Weiter.
+16:4:11 Du hast 45 Sekunden Zeit um 5 Javas abzuschiessen! Los!! #SHOOT%45/5
+16:4:111 Du hast ab sofort die Lizenz zum Toeten! #END%10
+16:4:112 Noch nie Doom gespielt?#END%-10
+-
+17:5 Couch-Potato
+17:5:1 Bist du ein Filmfreund? §1:  Ja!  §2:  Nein! Ich glaub ich lass es lieber!
+17:5:11 Aus welchem Film stammt folgendes Zitat: 'In the Stephen Spielberg film ET, why is the alien brown? No Reason! In Love Story, why do §the two characters fall madly in love with each other? [..] In the excellent Chain Saw Massacre by Tobe Hooper why don't we ever see §the characters go to the bathroom, or wash their hands like people do in real life? Absolutely No Reason! [..] §1: Weiter
+17:5:12 Tschuess. #END%0
+17:5:111 I could go on for hours with more examples, the list in endless, you probably never gave it a thought! But all great films, §without exception, contain an important element of No Reason! And you know why? Because life itself is filled with No Reason! §Why can't we see the air all around us? No Reason! Why are we always thinking? No Reason! Why do some people love sausages §and other people hate sausages? No Fucking Reason!' ???§1: Rubber   2:  Bubber   3:  Flubber
+17:5:1111 Ich sehe, du bist vom Fach! #END%30
+17:5:1112 Aehhhmmm, leider nein! #END%-10
+17:5:1113 Ich habe heute leider kein Foto fuer dich! #END%-10
+-
+18:5 Zahlen-Salat
+18:5:1 Die Ziffern von 1 bis 9 wurden in eine voellig neue Reihenfolge gebracht, sie lautet: 8 3 1 5 9 6 7 4 2. §Welches Ordnungsprinzip steckt dahinter?   §1:  Zufall  2:  Alphabetisch  3:  Mapping
+18:5:11 Wenn ich das deinem Prof. erzaehle! #END%-10
+18:5:12 YES SIR! #END%20
+18:5:13 Ich glaub du hast zu Beginn deines Studiums nicht richtig aufgepasst! #END%-10
+-
+19:5 Java-Hunt
+19:5:1 Hallo §Weiter mit 1
+19:5:11 Du hast  30 Sekunden Zeit um 3 Javas abzuschiessen! Let's Go!! #SHOOT%30/3
+19:5:111 Moechtest du mich heiraten? RESPEKT! #END%20
+19:5:112 Du hast vermutlich keine XBOX zu Hause oder? #END%-10
+-
+20:5 Klausur-Kopie
+20:5:1 Super, du hast soeben eine Kopie der Klausur gefunden. Dies bringt dir 10 Credit-Points! §1: Weiter.
+20:5:11 Hurra!#END%10
+-
+21:6 Webalicous
+21:6:1 Wie nennt man Textinformationen, die von Internet-Angeboten auf deinem Computer gespeichert werden?§1: Viren  §2: Cookies  §3: Googles
+21:6:11 NO MAN! #END%-10
+21:6:12 Cookies kann man nicht nur essen oder Spacekekse draus bauen, sondern auch dafuer benutzen. Richtig! #END%5
+21:6:13 Kleiner Tipp, google mal danach! #END%-10
+-
+22:6 Thesis-Time
+22:6:1 Willkommen Student! §1: Weiter.
+22:6:11 Hier ist dein Thema fuer die Bachelorarbeit! Suche Block und Stift und dann nichts wie ran an den Speck! #ITEM%Block/Stift
+22:6:111 Hurra!! Die Bachelorarbeit ist fertig! Bringe sie nun zu Prof. Barth. §Aber sei vorsichtig! #AREA%-12/0/0
+22:6:1111 Das soll eine Bachelorarbeit sein? Es macht was es soll, sagst du? Du musst mich schon bezwingen, dass ich dir das abkaufe! #BARTH
+22:6:11111 Ab sofort kannst du dir folgendes auf deine Visitenkarte drucken lassen: Bachelor of Science! GG! #END%70
+-

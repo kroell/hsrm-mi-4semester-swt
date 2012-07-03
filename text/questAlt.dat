@@ -1,0 +1,15 @@
+1:1 TestQuest
+1:1:1 Hallo Welt. Ich habe eine Aufgabe.§1: Weiter.    §2: Raus hier.
+1:1:11 Finde Block und Stift.#ITEM%Block/Kugelschreiber
+1:1:12 Byebye.#END%0
+1:1:111 Gefunden. Gehe jetzt zum Krechel#AREA%0/0/2
+1:1:1111 Du hast ihn erreicht. Besiege zwei Jawas in 10 Sekunden.#SHOOT%10/2
+1:1:11111 Ich nenn dich ab sofort Rambo!!!!#END%15
+1:1:11112 Vielleicht beim naechsten Mal.#END%-15
+-
+2:2 barthQuest
+2:2:1 Das soll eine Bachelorarbeit sein? Es macht was es soll, sagst du? §1: Weiter.    §2: Raus hier.
+2:2:11 Du musst mich schon bezwingen, dass ich die dir abkaufe!#BARTH
+2:2:12 Byebye.#END%0
+2:2:111 Sieg!#END%70
+-
